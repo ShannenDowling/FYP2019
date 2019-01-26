@@ -1,0 +1,840 @@
+"<!DOCTYPE html>
+
+<html lang=""en"">
+<head>
+<title>UNESCO | UniversAbility Audit</title>
+<meta charset=""utf-8""/>
+<meta content=""Web App Development Project"" name=""description""/>
+<meta content="""" name=""keywords""/>
+<meta content=""Shannen Dowling"" name=""author""/>
+<meta content=""all"" name=""robots""/>
+<!-- <meta http-equiv='X-UA-Compatible' content='IE=edge'> -->
+<link href=""stylesheet.css"" rel=""stylesheet"" type=""text/css""/>
+<link href=""Images/favicon.ico"" rel=""icon""/>
+<link href=""Images/favicon.ico"" rel=""shortcuticon""/> <!--Favicon from clipartpanda.com-->
+<script src=""javascript.js"" type=""text/javascript""></script>
+</head>
+<body>
+<div id=""header"">
+<h1>UNESCO UniversAbility Audit</h1>
+</div>
+<div id=""intro"">
+<p>The audit below will help you to get a sense of your organisation's
+    representativeness of the community in which it is located. Ideally any
+    organisation would reflect the demographics of its setting e.g. gender,
+    age and ethnicity. In this instance we are interested in the relevance
+    of your organisation to people with disabilities.</p>
+</div>
+<div>
+<form>
+<p class=""marg""><strong>Please consider the following questions and identify 
+      your level of agreement with the statement</strong></p>
+<ol>
+<li>Strongly Disagree</li>
+<li>Disagree</li>
+<li>Nuetral/ Don't know</li>
+<li>Agree</li>
+<li>Strongly agree</li>
+</ol>
+<fieldset>
+<legend><strong>Section 1: Verification</strong></legend>
+<table>
+<tr>
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td>I and/or my colleagues know where to get information to help us 
+              analyse the business case for consciously attracting people with 
+              disabilities as members</td>
+<td><input name=""Q1P1"" type=""radio"" value=""1""/></td>
+<td><input name=""Q1P1"" type=""radio"" value=""2""/></td>
+<td><input name=""Q1P1"" type=""radio"" value=""3""/></td>
+<td><input name=""Q1P1"" type=""radio"" value=""4""/></td>
+<td><input name=""Q1P1"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>I/my colleagues have researched the scope for increasing the 
+              participation of the broader community, in particular people with 
+              disabilites</td>
+<td><input name=""Q1P2"" type=""radio"" value=""1""/></td>
+<td><input name=""Q1P2"" type=""radio"" value=""2""/></td>
+<td><input name=""Q1P2"" type=""radio"" value=""3""/></td>
+<td><input name=""Q1P2"" type=""radio"" value=""4""/></td>
+<td><input name=""Q1P2"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>I know of disability service providers that I could link with
+               in the local community</td>
+<td><input name=""Q1P3"" type=""radio"" value=""1""/></td>
+<td><input name=""Q1P3"" type=""radio"" value=""2""/></td>
+<td><input name=""Q1P3"" type=""radio"" value=""3""/></td>
+<td><input name=""Q1P3"" type=""radio"" value=""4""/></td>
+<td><input name=""Q1P3"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>My colleagues and I make our services inclusive to provide for
+              people with disabilities</td>
+<td><input name=""Q1P4"" type=""radio"" value=""1""/></td>
+<td><input name=""Q1P4"" type=""radio"" value=""2""/></td>
+<td><input name=""Q1P4"" type=""radio"" value=""3""/></td>
+<td><input name=""Q1P4"" type=""radio"" value=""4""/></td>
+<td><input name=""Q1P4"" type=""radio"" value=""5""/></td>
+</tr>
+</table>
+</fieldset>
+<p class=""result"" id=""radio""></p>
+<fieldset>
+<legend><strong>Section 2: Value Proposition</strong></legend>
+<table>
+<tr>
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td>My colleagues and I have a significant contribution to make
+              to the quality of life of people in our community, including people
+              with disabilities</td>
+<td><input name=""Q2P1"" type=""radio"" value=""1""/></td>
+<td><input name=""Q2P1"" type=""radio"" value=""2""/></td>
+<td><input name=""Q2P1"" type=""radio"" value=""3""/></td>
+<td><input name=""Q2P1"" type=""radio"" value=""4""/></td>
+<td><input name=""Q2P1"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>My colleagues and I have the scope to improve opportunities for
+              participation in fitness activities for people living in. or visiting
+              our community, including people with disabilities</td>
+<td><input name=""Q2P2"" type=""radio"" value=""1""/></td>
+<td><input name=""Q2P2"" type=""radio"" value=""2""/></td>
+<td><input name=""Q2P2"" type=""radio"" value=""3""/></td>
+<td><input name=""Q2P2"" type=""radio"" value=""4""/></td>
+<td><input name=""Q2P2"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>The benefits of increasing our UniversAbility to increase participation
+              are clear</td>
+<td><input name=""Q2P3"" type=""radio"" value=""1""/></td>
+<td><input name=""Q2P3"" type=""radio"" value=""2""/></td>
+<td><input name=""Q2P3"" type=""radio"" value=""3""/></td>
+<td><input name=""Q2P3"" type=""radio"" value=""4""/></td>
+<td><input name=""Q2P3"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>My colleagues and I play a major role in providing health services
+              to the entire community, including people with disabilities</td>
+<td><input name=""Q2P4"" type=""radio"" value=""1""/></td>
+<td><input name=""Q2P4"" type=""radio"" value=""2""/></td>
+<td><input name=""Q2P4"" type=""radio"" value=""3""/></td>
+<td><input name=""Q2P4"" type=""radio"" value=""4""/></td>
+<td><input name=""Q2P4"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>The UniversAbility of our fitness services increases the job 
+              satisfaction and turnover of my staff</td>
+<td><input name=""Q2P5"" type=""radio"" value=""1""/></td>
+<td><input name=""Q2P5"" type=""radio"" value=""2""/></td>
+<td><input name=""Q2P5"" type=""radio"" value=""3""/></td>
+<td><input name=""Q2P5"" type=""radio"" value=""4""/></td>
+<td><input name=""Q2P5"" type=""radio"" value=""5""/></td>
+</tr>
+</table>
+</fieldset>
+<p class=""result"" id=""radio2""></p>
+<fieldset>
+<legend><strong>Section 3: Vision</strong></legend>
+<table class=""center"">
+<tr>
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td>My colleagues and I envision ourselves as leaders of cultural
+              change</td>
+<td><input name=""Q3P1"" type=""radio"" value=""1""/></td>
+<td><input name=""Q3P1"" type=""radio"" value=""2""/></td>
+<td><input name=""Q3P1"" type=""radio"" value=""3""/></td>
+<td><input name=""Q3P1"" type=""radio"" value=""4""/></td>
+<td><input name=""Q3P1"" type=""radio"" value=""5""/></td>
+</tr>
+</table>
+<p><strong>Which of the following statements best describes your situation 
+          within your organisation (Please select one)</strong></p>
+<table>
+<tr>
+<td>I and/or my colleagues have identified set targets for increasing the
+              UniversAbility of our services and are putting strategies in place to
+              achieve these goals</td>
+<td><input name=""Q3P2"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>I and/or my colleagues have identified scope for increasing
+              the UniversAbility of our services</td>
+<td><input name=""Q3P2"" type=""radio"" value=""4""/></td>
+</tr>
+<tr>
+<td>I think there may be scope for making our services more inclusive
+              but am not sure</td>
+<td><input name=""Q3P2"" type=""radio"" value=""3""/></td>
+</tr>
+<tr>
+<td>I have never considered making our services more inclusive until now</td>
+<td><input name=""Q3P2"" type=""radio"" value=""2""/></td>
+</tr>
+<tr>
+<td>I don't think making our services more inclusive, in particular
+              for people with disabilities, is really an option for us but won't
+              rule it out completely until it has been fully explored</td>
+<td><input name=""Q3P2"" type=""radio"" value=""1""/></td>
+</tr>
+</table>
+</fieldset>
+<p class=""result"" id=""radio3""></p>
+<fieldset>
+<legend><strong>Section 4: Philosophy</strong></legend>
+<p><strong>1. Does your organisation have stated ideals in your strategic
+          plan or other management documents which relate to the UniversAbility
+          of your services?</strong></p>
+<p>Yes <input name=""Q4P1"" type=""radio"" value=""10""/>
+          No <input name=""Q4P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Do you think an inclusive philosophy is a lived experience by:
+          </strong></p>
+<p>a) Management? <input name=""Q4P2"" type=""checkBox"" value=""10""/><br/>
+          b) Staff? <input name=""Q4P2"" type=""checkBox"" value=""10""/><br/>
+          c) Customers? <input name=""Q4P2"" type=""checkBox"" value=""10""/></p>
+</fieldset>
+<p class=""result"" id=""radio4""></p>
+<fieldset>
+<legend><strong>Section 5: Policy</strong></legend>
+<p><strong>1. Does your charging policy account for the varied needs of
+          your customers? (e.g. No charge for personal assistants</strong></p>
+<p>Yes <input name=""Q5P1"" type=""radio"" value=""10""/>
+          No <input name=""Q5P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Do you track and monitor the proportion of your club members
+          who experience disabilities?</strong></p>
+<p>Yes <input name=""Q5P2"" type=""radio"" value=""10""/>
+          No <input name=""Q5P2"" type=""radio"" value=""0""/></p>
+<p><strong>3. Have you a budget allocated to:</strong></p>
+<p class=""marg""><strong>a) Increasing the UniversAbility of your services? 
+          (e.g. Facilities, Equipment and Staff Training)</strong></p>
+<p>Yes <input name=""Q5P3"" type=""radio"" value=""10""/>
+          No <input name=""Q5P3"" type=""radio"" value=""0""/><br/>
+          Not needed because equipment is already fully accessible
+          <input name=""Q5P3"" type=""radio"" value=""10""/></p>
+<p class=""marg""><strong>b) Increasing the UniversAbility of your 
+          policies?</strong></p>
+<p>Yes <input name=""Q5P4"" type=""radio"" value=""10""/>
+          No <input name=""Q5P4"" type=""radio"" value=""0""/></p>
+<p><strong>4. Are you familiar with the national legislation that relates
+          to disability service provision?</strong></p>
+<p>Yes <input name=""Q5P5"" type=""radio"" value=""10""/>
+          No <input name=""Q5P5"" type=""radio"" value=""0""/></p>
+</fieldset>
+<p class=""result"" id=""radio5""></p>
+<fieldset>
+<legend><strong>Section 6: Processes</strong></legend>
+<p><strong>1. Do you engage with disability groups in your local community?
+        </strong></p>
+<p>Yes <input name=""Q6P1"" type=""radio"" value=""10""/>
+        No <input name=""Q6P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Have you forged any alliance/partnership with any disability
+        organisation?</strong></p>
+<p>Yes <input name=""Q6P2"" type=""radio"" value=""10""/>
+        No <input name=""Q6P2"" type=""radio"" value=""0""/></p>
+<p><strong>3. Have you or your staff embraced any assistive tehnologies
+        (e.g. Assist-Mi App)?</strong></p>
+<p>Yes <input name=""Q6P3"" type=""radio"" value=""10""/>
+        No <input name=""Q6P3"" type=""radio"" value=""0""/></p>
+<p><strong>4. Have you or your colleagues undertaken any research on making
+        your service more inclusive?</strong></p>
+<p>Yes <input name=""Q6P4"" type=""radio"" value=""10""/>
+        No <input name=""Q6P4"" type=""radio"" value=""0""/></p>
+<p><strong>5. Do you encourage your staff to engage in customer satisfaction
+        conversations with different user groups?</strong></p>
+<p>Yes <input name=""Q6P5"" type=""radio"" value=""10""/>
+        No <input name=""Q6P5"" type=""radio"" value=""0""/></p>
+</fieldset>
+<p class=""result"" id=""radio6""></p>
+<fieldset>
+<legend><strong>Section 7: Perception</strong></legend>
+<p><strong>1. Do you gather information from your users on their beliefs
+        about fitness being a fundamental right for all?</strong></p>
+<p>Yes <input name=""Q7P1"" type=""radio"" value=""10""/>
+        No <input name=""Q7P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Do you gather information from people who do not use your 
+        facility on fitness being a fundamental right for all?</strong></p>
+<p>Yes <input name=""Q7P2"" type=""radio"" value=""10""/>
+        No <input name=""Q7P2"" type=""radio"" value=""0""/></p>
+</fieldset>
+<p class=""result"" id=""radio7""></p>
+<fieldset>
+<legend><strong>Section 8: Programmes</strong></legend>
+<p><strong>This section refers to programmes that you deliver, or support
+        delivery of to conciously inclusivise your services</strong></p>
+<p><strong>1. Do you and your staff provide programmes specifically for
+        people with disabilities?</strong></p>
+<p>Yes <input name=""Q8P1"" type=""radio"" value=""10""/>
+        No <input name=""Q8P1"" type=""radio"" value=""0""/></p>
+<p class=""marg"">If Yes please complete the table below</p>
+<table class=""marg"">
+<tr>
+<th rowspan=""2"">Disability Category</th>
+<th>YES</th>
+</tr>
+<tr>
+<th>Type (Segregated or Integrated)</th>
+</tr>
+<tr>
+<td>Physical Disabilities</td>
+<td><input name=""Q8P2"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Intellectual Disabilities</td>
+<td><input name=""Q8P2"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Sensory Disabilities</td>
+<td><input name=""Q8P2"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Mental Health Difficulties</td>
+<td><input name=""Q8P2"" type=""checkbox"" value=""10""/></td>
+</tr>
+</table>
+<p><strong>2. Do people with disabilities use the gym, pool, or participate
+        in group activites etc. alongside other members?</strong></p>
+<p>Yes <input name=""Q8P3"" type=""radio"" value=""10""/>
+        No <input name=""Q8P3"" type=""radio"" value=""0""/></p>
+<p class=""marg"">If Yes please complete the table below</p>
+<table class=""marg"">
+<tr>
+<th rowspan=""2"">Disability Category</th>
+<th>YES</th>
+</tr>
+<tr>
+<th>Type (Segregated or Integrated)</th>
+</tr>
+<tr>
+<td>Physical Disabilities</td>
+<td><input name=""Q8P4"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Intellectual Disabilities</td>
+<td><input name=""Q8P4"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Sensory Disabilities</td>
+<td><input name=""Q8P4"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Mental Health Difficulties</td>
+<td><input name=""Q8P4"" type=""checkbox"" value=""10""/></td>
+</tr>
+</table>
+</fieldset>
+<p class=""result"" id=""radio8""></p>
+<fieldset>
+<legend><strong>Section 9: People</strong></legend>
+<p><strong>1. Have you or sny of your staff/volunteers had training that
+        facilitates the inclusion of people with disabilities?</strong></p>
+<p class=""marg"">a) Operational (teaching/instructional staff)<br/> 
+        Yes <input name=""Q9P1"" type=""radio"" value=""10""/>
+        No <input name=""Q9P1"" type=""radio"" value=""0""/></p>
+<p class=""marg"">b) Management<br/> 
+        Yes <input name=""Q9P2"" type=""radio"" value=""10""/>
+        No <input name=""Q9P2"" type=""radio"" value=""0""/></p>
+<p class=""marg"">c) Front of house<br/> 
+        Yes <input name=""Q9P3"" type=""radio"" value=""10""/>
+        No <input name=""Q9P3"" type=""radio"" value=""0""/></p>
+<p class=""marg"">d) Stakeholders/ Contacted staff<br/> 
+        Yes <input name=""Q9P4"" type=""radio"" value=""10""/>
+        No <input name=""Q9P4"" type=""radio"" value=""0""/></p>
+<p><strong>2. Are people with disabilities employed by you organisation
+        and/or represented on your steering committee/ management committee/
+        board of management etc.?</strong></p>
+<p>Yes <input name=""Q9P5"" type=""radio"" value=""10""/>
+        No <input name=""Q9P5"" type=""radio"" value=""0""/></p>
+<p><strong>3. Is there a member of staff allocated as a liason/point person
+        for customers with disabilities?</strong></p>
+<p>Yes <input name=""Q9P6"" type=""radio"" value=""10""/>
+        No <input name=""Q9P6"" type=""radio"" value=""0""/></p>
+</fieldset>
+<p class=""result"" id=""radio9""></p>
+<fieldset>
+<legend><strong>Section 10: Physical Access/Place</strong></legend>
+<p><strong>1. Have you or your colleagues carried out an audit to evaluate
+        the UniversAbility of your facility?</strong></p>
+<p>Yes <input name=""Q10P1"" type=""radio"" value=""10""/>
+        No <input name=""Q10P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Does your facility (or the facility you use) consider the
+        following disabilites when evaluating UniversAbility?</strong></p>
+<table class=""center"">
+<tr>
+<th>Disability Category</th>
+<th>YES</th>
+</tr>
+<tr>
+<td>Physical Disabilities</td>
+<td><input name=""Q10P2"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Intellectual Disabilities</td>
+<td><input name=""Q10P3"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Sensory Disabilities</td>
+<td><input name=""Q10P4"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Mental Health Difficulties</td>
+<td><input name=""Q10P5"" type=""checkbox"" value=""10""/></td>
+</tr>
+</table>
+</fieldset>
+<p class=""result"" id=""radio10""></p>
+<fieldset>
+<legend><strong>Section 11: Promotion</strong></legend>
+<p><strong>1. Is your promotional material inclusive of people with
+        disabilities?</strong></p>
+<p>Yes <input name=""Q11P1"" type=""radio"" value=""10""/>
+        No <input name=""Q11P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Have you or your colleagues/staff developed any promotional
+        materials with the aim of attracting people with disabilities?</strong></p>
+<p>Yes <input name=""Q11P2"" type=""radio"" value=""10""/>
+        No <input name=""Q11P2"" type=""radio"" value=""0""/></p>
+</fieldset>
+<p class=""result"" id=""radio11""></p>
+<p><input onclick=""sectionOne(), sectionTwo(), sectionThree(), sectionFour(), sectionFive(),
+        sectionSix(), sectionSeven(), sectionEight(), sectionNine(), sectionTen(),
+        sectionEleven(), totalScore()"" type=""button"" value=""Score""/>
+<input class=""marg1"" onclick=""removeText()"" type=""reset"" value=""Reset""/></p>
+<h3>Overall Comment on your organisation: </h3>
+<p class=""result"" id=""overallResults""></p>
+</form>
+</div>
+</body>
+</html>","<div id=""header"">
+<h1>UNESCO UniversAbility Audit</h1>
+</div>","<body>
+<div id=""header"">
+<h1>UNESCO UniversAbility Audit</h1>
+</div>
+<div id=""intro"">
+<p>The audit below will help you to get a sense of your organisation's
+    representativeness of the community in which it is located. Ideally any
+    organisation would reflect the demographics of its setting e.g. gender,
+    age and ethnicity. In this instance we are interested in the relevance
+    of your organisation to people with disabilities.</p>
+</div>
+<div>
+<form>
+<p class=""marg""><strong>Please consider the following questions and identify 
+      your level of agreement with the statement</strong></p>
+<ol>
+<li>Strongly Disagree</li>
+<li>Disagree</li>
+<li>Nuetral/ Don't know</li>
+<li>Agree</li>
+<li>Strongly agree</li>
+</ol>
+<fieldset>
+<legend><strong>Section 1: Verification</strong></legend>
+<table>
+<tr>
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td>I and/or my colleagues know where to get information to help us 
+              analyse the business case for consciously attracting people with 
+              disabilities as members</td>
+<td><input name=""Q1P1"" type=""radio"" value=""1""/></td>
+<td><input name=""Q1P1"" type=""radio"" value=""2""/></td>
+<td><input name=""Q1P1"" type=""radio"" value=""3""/></td>
+<td><input name=""Q1P1"" type=""radio"" value=""4""/></td>
+<td><input name=""Q1P1"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>I/my colleagues have researched the scope for increasing the 
+              participation of the broader community, in particular people with 
+              disabilites</td>
+<td><input name=""Q1P2"" type=""radio"" value=""1""/></td>
+<td><input name=""Q1P2"" type=""radio"" value=""2""/></td>
+<td><input name=""Q1P2"" type=""radio"" value=""3""/></td>
+<td><input name=""Q1P2"" type=""radio"" value=""4""/></td>
+<td><input name=""Q1P2"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>I know of disability service providers that I could link with
+               in the local community</td>
+<td><input name=""Q1P3"" type=""radio"" value=""1""/></td>
+<td><input name=""Q1P3"" type=""radio"" value=""2""/></td>
+<td><input name=""Q1P3"" type=""radio"" value=""3""/></td>
+<td><input name=""Q1P3"" type=""radio"" value=""4""/></td>
+<td><input name=""Q1P3"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>My colleagues and I make our services inclusive to provide for
+              people with disabilities</td>
+<td><input name=""Q1P4"" type=""radio"" value=""1""/></td>
+<td><input name=""Q1P4"" type=""radio"" value=""2""/></td>
+<td><input name=""Q1P4"" type=""radio"" value=""3""/></td>
+<td><input name=""Q1P4"" type=""radio"" value=""4""/></td>
+<td><input name=""Q1P4"" type=""radio"" value=""5""/></td>
+</tr>
+</table>
+</fieldset>
+<p class=""result"" id=""radio""></p>
+<fieldset>
+<legend><strong>Section 2: Value Proposition</strong></legend>
+<table>
+<tr>
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td>My colleagues and I have a significant contribution to make
+              to the quality of life of people in our community, including people
+              with disabilities</td>
+<td><input name=""Q2P1"" type=""radio"" value=""1""/></td>
+<td><input name=""Q2P1"" type=""radio"" value=""2""/></td>
+<td><input name=""Q2P1"" type=""radio"" value=""3""/></td>
+<td><input name=""Q2P1"" type=""radio"" value=""4""/></td>
+<td><input name=""Q2P1"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>My colleagues and I have the scope to improve opportunities for
+              participation in fitness activities for people living in. or visiting
+              our community, including people with disabilities</td>
+<td><input name=""Q2P2"" type=""radio"" value=""1""/></td>
+<td><input name=""Q2P2"" type=""radio"" value=""2""/></td>
+<td><input name=""Q2P2"" type=""radio"" value=""3""/></td>
+<td><input name=""Q2P2"" type=""radio"" value=""4""/></td>
+<td><input name=""Q2P2"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>The benefits of increasing our UniversAbility to increase participation
+              are clear</td>
+<td><input name=""Q2P3"" type=""radio"" value=""1""/></td>
+<td><input name=""Q2P3"" type=""radio"" value=""2""/></td>
+<td><input name=""Q2P3"" type=""radio"" value=""3""/></td>
+<td><input name=""Q2P3"" type=""radio"" value=""4""/></td>
+<td><input name=""Q2P3"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>My colleagues and I play a major role in providing health services
+              to the entire community, including people with disabilities</td>
+<td><input name=""Q2P4"" type=""radio"" value=""1""/></td>
+<td><input name=""Q2P4"" type=""radio"" value=""2""/></td>
+<td><input name=""Q2P4"" type=""radio"" value=""3""/></td>
+<td><input name=""Q2P4"" type=""radio"" value=""4""/></td>
+<td><input name=""Q2P4"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>The UniversAbility of our fitness services increases the job 
+              satisfaction and turnover of my staff</td>
+<td><input name=""Q2P5"" type=""radio"" value=""1""/></td>
+<td><input name=""Q2P5"" type=""radio"" value=""2""/></td>
+<td><input name=""Q2P5"" type=""radio"" value=""3""/></td>
+<td><input name=""Q2P5"" type=""radio"" value=""4""/></td>
+<td><input name=""Q2P5"" type=""radio"" value=""5""/></td>
+</tr>
+</table>
+</fieldset>
+<p class=""result"" id=""radio2""></p>
+<fieldset>
+<legend><strong>Section 3: Vision</strong></legend>
+<table class=""center"">
+<tr>
+<th></th>
+<th>1</th>
+<th>2</th>
+<th>3</th>
+<th>4</th>
+<th>5</th>
+</tr>
+<tr>
+<td>My colleagues and I envision ourselves as leaders of cultural
+              change</td>
+<td><input name=""Q3P1"" type=""radio"" value=""1""/></td>
+<td><input name=""Q3P1"" type=""radio"" value=""2""/></td>
+<td><input name=""Q3P1"" type=""radio"" value=""3""/></td>
+<td><input name=""Q3P1"" type=""radio"" value=""4""/></td>
+<td><input name=""Q3P1"" type=""radio"" value=""5""/></td>
+</tr>
+</table>
+<p><strong>Which of the following statements best describes your situation 
+          within your organisation (Please select one)</strong></p>
+<table>
+<tr>
+<td>I and/or my colleagues have identified set targets for increasing the
+              UniversAbility of our services and are putting strategies in place to
+              achieve these goals</td>
+<td><input name=""Q3P2"" type=""radio"" value=""5""/></td>
+</tr>
+<tr>
+<td>I and/or my colleagues have identified scope for increasing
+              the UniversAbility of our services</td>
+<td><input name=""Q3P2"" type=""radio"" value=""4""/></td>
+</tr>
+<tr>
+<td>I think there may be scope for making our services more inclusive
+              but am not sure</td>
+<td><input name=""Q3P2"" type=""radio"" value=""3""/></td>
+</tr>
+<tr>
+<td>I have never considered making our services more inclusive until now</td>
+<td><input name=""Q3P2"" type=""radio"" value=""2""/></td>
+</tr>
+<tr>
+<td>I don't think making our services more inclusive, in particular
+              for people with disabilities, is really an option for us but won't
+              rule it out completely until it has been fully explored</td>
+<td><input name=""Q3P2"" type=""radio"" value=""1""/></td>
+</tr>
+</table>
+</fieldset>
+<p class=""result"" id=""radio3""></p>
+<fieldset>
+<legend><strong>Section 4: Philosophy</strong></legend>
+<p><strong>1. Does your organisation have stated ideals in your strategic
+          plan or other management documents which relate to the UniversAbility
+          of your services?</strong></p>
+<p>Yes <input name=""Q4P1"" type=""radio"" value=""10""/>
+          No <input name=""Q4P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Do you think an inclusive philosophy is a lived experience by:
+          </strong></p>
+<p>a) Management? <input name=""Q4P2"" type=""checkBox"" value=""10""/><br/>
+          b) Staff? <input name=""Q4P2"" type=""checkBox"" value=""10""/><br/>
+          c) Customers? <input name=""Q4P2"" type=""checkBox"" value=""10""/></p>
+</fieldset>
+<p class=""result"" id=""radio4""></p>
+<fieldset>
+<legend><strong>Section 5: Policy</strong></legend>
+<p><strong>1. Does your charging policy account for the varied needs of
+          your customers? (e.g. No charge for personal assistants</strong></p>
+<p>Yes <input name=""Q5P1"" type=""radio"" value=""10""/>
+          No <input name=""Q5P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Do you track and monitor the proportion of your club members
+          who experience disabilities?</strong></p>
+<p>Yes <input name=""Q5P2"" type=""radio"" value=""10""/>
+          No <input name=""Q5P2"" type=""radio"" value=""0""/></p>
+<p><strong>3. Have you a budget allocated to:</strong></p>
+<p class=""marg""><strong>a) Increasing the UniversAbility of your services? 
+          (e.g. Facilities, Equipment and Staff Training)</strong></p>
+<p>Yes <input name=""Q5P3"" type=""radio"" value=""10""/>
+          No <input name=""Q5P3"" type=""radio"" value=""0""/><br/>
+          Not needed because equipment is already fully accessible
+          <input name=""Q5P3"" type=""radio"" value=""10""/></p>
+<p class=""marg""><strong>b) Increasing the UniversAbility of your 
+          policies?</strong></p>
+<p>Yes <input name=""Q5P4"" type=""radio"" value=""10""/>
+          No <input name=""Q5P4"" type=""radio"" value=""0""/></p>
+<p><strong>4. Are you familiar with the national legislation that relates
+          to disability service provision?</strong></p>
+<p>Yes <input name=""Q5P5"" type=""radio"" value=""10""/>
+          No <input name=""Q5P5"" type=""radio"" value=""0""/></p>
+</fieldset>
+<p class=""result"" id=""radio5""></p>
+<fieldset>
+<legend><strong>Section 6: Processes</strong></legend>
+<p><strong>1. Do you engage with disability groups in your local community?
+        </strong></p>
+<p>Yes <input name=""Q6P1"" type=""radio"" value=""10""/>
+        No <input name=""Q6P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Have you forged any alliance/partnership with any disability
+        organisation?</strong></p>
+<p>Yes <input name=""Q6P2"" type=""radio"" value=""10""/>
+        No <input name=""Q6P2"" type=""radio"" value=""0""/></p>
+<p><strong>3. Have you or your staff embraced any assistive tehnologies
+        (e.g. Assist-Mi App)?</strong></p>
+<p>Yes <input name=""Q6P3"" type=""radio"" value=""10""/>
+        No <input name=""Q6P3"" type=""radio"" value=""0""/></p>
+<p><strong>4. Have you or your colleagues undertaken any research on making
+        your service more inclusive?</strong></p>
+<p>Yes <input name=""Q6P4"" type=""radio"" value=""10""/>
+        No <input name=""Q6P4"" type=""radio"" value=""0""/></p>
+<p><strong>5. Do you encourage your staff to engage in customer satisfaction
+        conversations with different user groups?</strong></p>
+<p>Yes <input name=""Q6P5"" type=""radio"" value=""10""/>
+        No <input name=""Q6P5"" type=""radio"" value=""0""/></p>
+</fieldset>
+<p class=""result"" id=""radio6""></p>
+<fieldset>
+<legend><strong>Section 7: Perception</strong></legend>
+<p><strong>1. Do you gather information from your users on their beliefs
+        about fitness being a fundamental right for all?</strong></p>
+<p>Yes <input name=""Q7P1"" type=""radio"" value=""10""/>
+        No <input name=""Q7P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Do you gather information from people who do not use your 
+        facility on fitness being a fundamental right for all?</strong></p>
+<p>Yes <input name=""Q7P2"" type=""radio"" value=""10""/>
+        No <input name=""Q7P2"" type=""radio"" value=""0""/></p>
+</fieldset>
+<p class=""result"" id=""radio7""></p>
+<fieldset>
+<legend><strong>Section 8: Programmes</strong></legend>
+<p><strong>This section refers to programmes that you deliver, or support
+        delivery of to conciously inclusivise your services</strong></p>
+<p><strong>1. Do you and your staff provide programmes specifically for
+        people with disabilities?</strong></p>
+<p>Yes <input name=""Q8P1"" type=""radio"" value=""10""/>
+        No <input name=""Q8P1"" type=""radio"" value=""0""/></p>
+<p class=""marg"">If Yes please complete the table below</p>
+<table class=""marg"">
+<tr>
+<th rowspan=""2"">Disability Category</th>
+<th>YES</th>
+</tr>
+<tr>
+<th>Type (Segregated or Integrated)</th>
+</tr>
+<tr>
+<td>Physical Disabilities</td>
+<td><input name=""Q8P2"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Intellectual Disabilities</td>
+<td><input name=""Q8P2"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Sensory Disabilities</td>
+<td><input name=""Q8P2"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Mental Health Difficulties</td>
+<td><input name=""Q8P2"" type=""checkbox"" value=""10""/></td>
+</tr>
+</table>
+<p><strong>2. Do people with disabilities use the gym, pool, or participate
+        in group activites etc. alongside other members?</strong></p>
+<p>Yes <input name=""Q8P3"" type=""radio"" value=""10""/>
+        No <input name=""Q8P3"" type=""radio"" value=""0""/></p>
+<p class=""marg"">If Yes please complete the table below</p>
+<table class=""marg"">
+<tr>
+<th rowspan=""2"">Disability Category</th>
+<th>YES</th>
+</tr>
+<tr>
+<th>Type (Segregated or Integrated)</th>
+</tr>
+<tr>
+<td>Physical Disabilities</td>
+<td><input name=""Q8P4"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Intellectual Disabilities</td>
+<td><input name=""Q8P4"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Sensory Disabilities</td>
+<td><input name=""Q8P4"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Mental Health Difficulties</td>
+<td><input name=""Q8P4"" type=""checkbox"" value=""10""/></td>
+</tr>
+</table>
+</fieldset>
+<p class=""result"" id=""radio8""></p>
+<fieldset>
+<legend><strong>Section 9: People</strong></legend>
+<p><strong>1. Have you or sny of your staff/volunteers had training that
+        facilitates the inclusion of people with disabilities?</strong></p>
+<p class=""marg"">a) Operational (teaching/instructional staff)<br/> 
+        Yes <input name=""Q9P1"" type=""radio"" value=""10""/>
+        No <input name=""Q9P1"" type=""radio"" value=""0""/></p>
+<p class=""marg"">b) Management<br/> 
+        Yes <input name=""Q9P2"" type=""radio"" value=""10""/>
+        No <input name=""Q9P2"" type=""radio"" value=""0""/></p>
+<p class=""marg"">c) Front of house<br/> 
+        Yes <input name=""Q9P3"" type=""radio"" value=""10""/>
+        No <input name=""Q9P3"" type=""radio"" value=""0""/></p>
+<p class=""marg"">d) Stakeholders/ Contacted staff<br/> 
+        Yes <input name=""Q9P4"" type=""radio"" value=""10""/>
+        No <input name=""Q9P4"" type=""radio"" value=""0""/></p>
+<p><strong>2. Are people with disabilities employed by you organisation
+        and/or represented on your steering committee/ management committee/
+        board of management etc.?</strong></p>
+<p>Yes <input name=""Q9P5"" type=""radio"" value=""10""/>
+        No <input name=""Q9P5"" type=""radio"" value=""0""/></p>
+<p><strong>3. Is there a member of staff allocated as a liason/point person
+        for customers with disabilities?</strong></p>
+<p>Yes <input name=""Q9P6"" type=""radio"" value=""10""/>
+        No <input name=""Q9P6"" type=""radio"" value=""0""/></p>
+</fieldset>
+<p class=""result"" id=""radio9""></p>
+<fieldset>
+<legend><strong>Section 10: Physical Access/Place</strong></legend>
+<p><strong>1. Have you or your colleagues carried out an audit to evaluate
+        the UniversAbility of your facility?</strong></p>
+<p>Yes <input name=""Q10P1"" type=""radio"" value=""10""/>
+        No <input name=""Q10P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Does your facility (or the facility you use) consider the
+        following disabilites when evaluating UniversAbility?</strong></p>
+<table class=""center"">
+<tr>
+<th>Disability Category</th>
+<th>YES</th>
+</tr>
+<tr>
+<td>Physical Disabilities</td>
+<td><input name=""Q10P2"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Intellectual Disabilities</td>
+<td><input name=""Q10P3"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Sensory Disabilities</td>
+<td><input name=""Q10P4"" type=""checkbox"" value=""10""/></td>
+</tr>
+<tr>
+<td>Mental Health Difficulties</td>
+<td><input name=""Q10P5"" type=""checkbox"" value=""10""/></td>
+</tr>
+</table>
+</fieldset>
+<p class=""result"" id=""radio10""></p>
+<fieldset>
+<legend><strong>Section 11: Promotion</strong></legend>
+<p><strong>1. Is your promotional material inclusive of people with
+        disabilities?</strong></p>
+<p>Yes <input name=""Q11P1"" type=""radio"" value=""10""/>
+        No <input name=""Q11P1"" type=""radio"" value=""0""/></p>
+<p><strong>2. Have you or your colleagues/staff developed any promotional
+        materials with the aim of attracting people with disabilities?</strong></p>
+<p>Yes <input name=""Q11P2"" type=""radio"" value=""10""/>
+        No <input name=""Q11P2"" type=""radio"" value=""0""/></p>
+</fieldset>
+<p class=""result"" id=""radio11""></p>
+<p><input onclick=""sectionOne(), sectionTwo(), sectionThree(), sectionFour(), sectionFive(),
+        sectionSix(), sectionSeven(), sectionEight(), sectionNine(), sectionTen(),
+        sectionEleven(), totalScore()"" type=""button"" value=""Score""/>
+<input class=""marg1"" onclick=""removeText()"" type=""reset"" value=""Reset""/></p>
+<h3>Overall Comment on your organisation: </h3>
+<p class=""result"" id=""overallResults""></p>
+</form>
+</div>
+</body>",<built-in function input>,2019-01-26 14:59:30.975683
