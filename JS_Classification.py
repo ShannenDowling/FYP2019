@@ -26,7 +26,7 @@ df = df[pd.notnull(df['label'])]
 print(df.head(10))
 print(df['text'].apply(lambda x: len(x.split(' '))).sum())
 
-labels = ['Form','Text','Link','Table','JavaScript']
+labels = ['Form','Text','Link','Table','JavaScript','Image']
 plt.figure(figsize=(10,4))
 df.label.value_counts().plot(kind='bar');
 
@@ -66,7 +66,7 @@ df['text'].apply(lambda x: len(x.split(' '))).sum()
 
 X = df.text
 y = df.label
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state = 42)
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.5, random_state = 42)
 
 
 
@@ -149,14 +149,14 @@ from keras.layers import Dense, Activation, Dropout
 from keras.preprocessing import text, sequence
 from keras import utils
 
-train_size = int(len(df) * .7)
+train_size = int(len(df) * .8)
 train_text = df['text'][:train_size]
 train_label = df['label'][:train_size]
 
 test_text = df['text'][train_size:]
 test_label = df['label'][train_size:]
 
-max_words = 1000
+max_words = 2000
 tokenize = text.Tokenizer(num_words=max_words, char_level=False)
 tokenize.fit_on_texts(train_text) # only fit on train
 
@@ -172,8 +172,8 @@ num_classes = np.max(y_train) + 1
 y_train = utils.to_categorical(y_train, num_classes)
 y_test = utils.to_categorical(y_test, num_classes)
 
-batch_size = 48
-epochs = 2
+batch_size = 250
+epochs = 10
 
 # Build the model
 model = Sequential()
@@ -201,13 +201,13 @@ print('Test accuracy:', score[1])
 
 #https://cloud.google.com/blog/products/gcp/intro-to-text-classification-with-keras-automatically-tagging-stack-overflow-posts
 #predictions
-train_size = int(len(df) * .8)
+train_size = int(len(df) * .7)
 train_text = df['text'][:train_size]
 train_label = df['label'][:train_size]
 test_text = df['text'][train_size:]
 test_label = df['label'][train_size:]
 
-for i in range(50):    
+for i in range(65):    
     prediction = model.predict(np.array([x_test[i]]))
 
 text_labels = encoder.classes_ 
