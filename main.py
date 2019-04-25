@@ -1,4 +1,5 @@
-#Multi-Class Text Classification Model Comparison and Selection Natural Language Processing, word2vec, Support Vector Machine, bag-of-words, deep learning, (2018). [Online]
+#Multi-Class Text Classification Model Comparison and Selection Natural Language Processing, word2vec, Support Vector Machine, bag-of-words, deep learning. [Online]
+#Author(s): Susan Li, (2018)
 #Available at: https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568
 #[Accessed 14 02 2019].
 
@@ -15,11 +16,6 @@ import matplotlib.pyplot as plt
 from nltk.corpus import stopwords
 import re
 from bs4 import BeautifulSoup
-
-# #%matplotlib inline  ---- invalid syntax error
-# # replace with --> https://stackoverflow.com/questions/35595766/matplotlib-line-magic-causes-syntaxerror-in-python-script : kazemakase (Feb '16)
-# from IPython import get_ipython
-# get_ipython().run_line_magic('matplotlib', 'inline')
 
 
 df = pd.read_csv('data/HTMLdataset.csv')
@@ -126,8 +122,10 @@ print(classification_report(y_test, y_pred,target_names=labels))
 
 
 
-#https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568
-#BOW with Keras
+#Multi-Class Text Classification Model Comparison and Selection. [Online]
+#Author(s): Susan Li, (2018).
+#Available at: https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568
+#[Accessed 17 02 2019].
 
 print(" ######### ---------- Text Classification with Keras ---------- ######### ")
 
@@ -174,7 +172,7 @@ y_train = utils.to_categorical(y_train, num_classes)
 y_test = utils.to_categorical(y_test, num_classes)
 
 batch_size = 75
-epochs = 35
+epochs = 30
 
 # Build the model
 model = Sequential()
@@ -200,8 +198,13 @@ score = model.evaluate(x_test, y_test,
 print('Test accuracy:', score[1])
 
 
-#https://cloud.google.com/blog/products/gcp/intro-to-text-classification-with-keras-automatically-tagging-stack-overflow-posts
-#predictions
+#Implementing predictions
+
+#Intro to text classification with Keras: automatically tagging Stack Overflow posts. [Online]
+#Author(s): Sara Robinson, Josh Gordon, Marianne Linhares Monteiro (2017).
+#Available at: https://cloud.google.com/blog/products/gcp/intro-to-text-classification-with-keras-automatically-tagging-stack-overflow-posts
+#[Accessed 19 02 2019].
+
 train_size = int(len(df) * .8)
 train_text = df['text'][:train_size]
 train_label = df['label'][:train_size]
