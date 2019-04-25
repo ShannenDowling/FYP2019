@@ -1,0 +1,168 @@
+label,start,end,text
+Link,242,246,< /a>
+Link,206,214,< a href=
+Link,200,204,< /a>
+Link,154,162,< a href=
+Link,148,152,< /a>
+Link,110,118,< a href=
+Link,104,108,< /a>
+Link,60,68,< a href=
+Link,54,58,< /a>
+Link,23,31,< a href=
+Image,25,29,< img
+Form,3808,3815,< /form>
+Form,3766,3772,< input
+Form,3721,3727,< input
+Form,3708,3719,< /fieldset>
+Form,3657,3663,< input
+Form,3563,3569,< input
+Form,3512,3518,< input
+Form,3409,3415,< input
+Form,3349,3355,< input
+Form,3290,3296,< input
+Form,3197,3203,< input
+Form,3158,3167,< /legend>
+Form,3098,3118,< fieldset>\n< legend>
+Form,3085,3096,< /fieldset>
+Form,3011,3017,< input
+Form,2935,2941,< input
+Form,2851,2857,< input
+Form,2840,2849,< /legend>
+Form,2788,2808,< fieldset>\n< legend>
+Form,2775,2786,< /fieldset>
+Form,2764,2773,< /select>
+Form,2753,2762,< /option>
+Form,2716,2730,< option value=
+Form,2705,2714,< /option>
+Form,2668,2682,< option value=
+Form,2657,2666,< /option>
+Form,2624,2638,< option value=
+Form,2613,2622,< /option>
+Form,2576,2590,< option value=
+Form,2529,2538,< /legend>
+Form,2480,2500,< fieldset>\n< legend>
+Form,2467,2478,< /fieldset>
+Form,2403,2409,< input
+Form,2336,2342,< input
+Form,2269,2275,< input
+Form,2202,2208,< input
+Form,2135,2141,< input
+Form,2048,2054,< input
+Form,2037,2046,< /legend>
+Form,1981,2001,< fieldset>\n< legend>
+Form,1968,1979,< /fieldset>
+Form,1957,1966,< /select>
+Form,1946,1955,< /option>
+Form,1933,1941,< option>
+Form,1922,1931,< /option>
+Form,1909,1917,< option>
+Form,1898,1907,< /option>
+Form,1885,1893,< option>
+Form,1875,1883,< select>
+Form,1829,1838,< /select>
+Form,1818,1827,< /option>
+Form,1782,1796,< option value=
+Form,1771,1780,< /option>
+Form,1735,1749,< option value=
+Form,1724,1733,< /option>
+Form,1690,1704,< option value=
+Form,1679,1688,< /option>
+Form,1641,1655,< option value=
+Form,1630,1639,< /option>
+Form,1598,1612,< option value=
+Form,1587,1596,< /option>
+Form,1559,1573,< option value=
+Form,1548,1557,< /option>
+Form,1520,1534,< option value=
+Form,1509,1518,< /option>
+Form,1483,1497,< option value=
+Form,1472,1481,< /option>
+Form,1442,1456,< option value=
+Form,1431,1440,< /option>
+Form,1401,1415,< option value=
+Form,1390,1399,< /option>
+Form,1354,1368,< option value=
+Form,1343,1352,< /option>
+Form,1309,1323,< option value=
+Form,1299,1307,< select>
+Form,1251,1260,< /select>
+Form,1240,1249,< /option>
+Form,1216,1230,< option value=
+Form,1205,1214,< /option>
+Form,1181,1195,< option value=
+Form,1170,1179,< /option>
+Form,1146,1160,< option value=
+Form,1135,1144,< /option>
+Form,1111,1125,< option value=
+Form,1100,1109,< /option>
+Form,1076,1090,< option value=
+Form,1065,1074,< /option>
+Form,1041,1055,< option value=
+Form,1030,1039,< /option>
+Form,1006,1020,< option value=
+Form,995,1004,< /option>
+Form,971,985,< option value=
+Form,960,969,< /option>
+Form,936,950,< option value=
+Form,925,934,< /option>
+Form,901,915,< option value=
+Form,890,899,< /option>
+Form,866,880,< option value=
+Form,855,864,< /option>
+Form,831,845,< option value=
+Form,820,829,< /option>
+Form,796,810,< option value=
+Form,785,794,< /option>
+Form,761,775,< option value=
+Form,750,759,< /option>
+Form,726,740,< option value=
+Form,715,724,< /option>
+Form,691,705,< option value=
+Form,680,689,< /option>
+Form,656,670,< option value=
+Form,645,654,< /option>
+Form,621,635,< option value=
+Form,610,619,< /option>
+Form,586,600,< option value=
+Form,575,584,< /option>
+Form,551,565,< option value=
+Form,540,549,< /option>
+Form,516,530,< option value=
+Form,505,514,< /option>
+Form,481,495,< option value=
+Form,470,479,< /option>
+Form,448,462,< option value=
+Form,437,446,< /option>
+Form,415,429,< option value=
+Form,404,413,< /option>
+Form,382,396,< option value=
+Form,371,380,< /option>
+Form,349,363,< option value=
+Form,338,347,< /option>
+Form,316,330,< option value=
+Form,305,314,< /option>
+Form,283,297,< option value=
+Form,272,281,< /option>
+Form,250,264,< option value=
+Form,239,248,< /option>
+Form,217,231,< option value=
+Form,206,215,< /option>
+Form,184,198,< option value=
+Form,174,182,< select>
+Form,130,139,< /legend>
+Form,75,95,< fieldset>\n< legend>
+Text,68,73,< /h2>
+Text,55,58,< h2
+Form,4,15,form action=
+Link,310,314,< /a>
+Link,265,273,< a href=
+Link,248,252,< /a>
+Link,209,217,< a href=
+Link,192,196,< /a>
+Link,157,165,< a href=
+Link,140,144,< /a>
+Link,99,107,< a href=
+Link,82,86,< /a>
+Link,54,62,< a href=
+Text,36,41,< /h1>
+Text,24,28,< h1>
