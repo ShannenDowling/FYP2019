@@ -148,14 +148,15 @@ from keras.layers import Dense, Activation, Dropout
 from keras.preprocessing import text, sequence
 from keras import utils
 
-train_size = int(len(df) * .8)
+
+train_size = int(len(df) * .9)
 train_text = df['text'][:train_size]
 train_label = df['label'][:train_size]
 
 test_text = df['text'][train_size:]
 test_label = df['label'][train_size:]
 
-max_words = 2000
+max_words = 1000
 tokenize = text.Tokenizer(num_words=max_words, char_level=False)
 tokenize.fit_on_texts(train_text) # only fit on train
 
@@ -171,8 +172,8 @@ num_classes = np.max(y_train) + 1
 y_train = utils.to_categorical(y_train, num_classes)
 y_test = utils.to_categorical(y_test, num_classes)
 
-batch_size = 75
-epochs = 30
+batch_size = 100
+epochs = 20
 
 # Build the model
 model = Sequential()
@@ -211,18 +212,18 @@ train_label = df['label'][:train_size]
 test_text = df['text'][train_size:]
 test_label = df['label'][train_size:]
 
-for i in range(75):    
+for i in range(25):    
     prediction = model.predict(np.array([x_test[i]]))
 	
 
 text_labels = encoder.classes_ 
 predicted_label = text_labels[np.argmax(prediction[0])]
-print(test_text.iloc[i][:50], "...")
+print(test_text.iloc[i][:25], "...")
 
 actual_label = test_label.iloc[i]
 print('\nActual label:' + actual_label)
 
-print("\nPredicted label: " + predicted_label)	
+print("\nPredicted label: " + predicted_label + "\n\n")	
 
 
 #test cases
@@ -234,6 +235,7 @@ Text = "Verify text is displayed."
 Image = "Image is loaded."
 Link = "Hyperlink is selected and new page opens."
 JS = "JavaScript loads."
+Table = "Table is loaded."
 
 
 if predicted_label == "Form":
@@ -251,8 +253,11 @@ elif predicted_label == "Link":
 elif predicted_label == "JavaScript":
 	print("Test case: " + JS)
 	
+elif predicted_label == "Table":
+	print("Test case: " + Table)
+	
 else:
-	print("No test case found, matching label: " + predicted_label)
+	print("No test case found matching label: " + predicted_label)
 	
 	
 	
