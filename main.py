@@ -226,39 +226,66 @@ print('\nActual label:' + actual_label)
 print("\nPredicted label: " + predicted_label + "\n\n")	
 
 
-#test cases
-#if statements in python
-#https://www.w3schools.com/python/python_conditions.asp
 
-Form = "Enter a name in the text box."
-Text = "Verify text is displayed."
-Image = "Image is loaded."
-Link = "Hyperlink is selected and new page opens."
-JS = "JavaScript loads."
-Table = "Table is loaded."
+#Test Cases
 
+Form = "Enter a name in the text box.\n"
+Text = "Verify text is displayed.\n"
+Image = "Image is loaded.\n"
+Link = "Hyperlink is selected and new page opens.\n"
+JS = "JavaScript loads.\n"
+Table = "Table is loaded.\n"
+
+#Python GUI Tkinter Tutorial [#1] - Creating Your First GUI; Python GUI Tkinter Tutorial [#3] - Widgets. [Online]
+#Author(s): Kody Simpson (2018).
+#Available at: https://www.youtube.com/watch?v=3li1SdZ1Ru8; https://www.youtube.com/watch?v=HzY2ck-uTCY
+#[Accessed 01 05 2019].
+
+import tkinter as tk
+
+#Crete instance
+win = tk.Tk()
+
+#Window title
+win.title("Test Case Application")
+
+frame = tk.Frame(win)
+frame.pack()
+
+#Label 1 
+tk.Label(frame, text="Displaying test case\n\n").pack()
+
+#Label 2
+tk.Label(frame, text="The test case to be performed is as follows:\n\n").pack()
 
 if predicted_label == "Form":
-	print("Test case: " + Form)
+	tk.Label(frame, text= Form).pack()
 	
 elif predicted_label == "Text":
-	print("Test case: " + Text)
+	tk.Label(frame, text= Text).pack()
 
 elif predicted_label == "Image":
-	print("Test case: " + Image)
+	tk.Label(frame, text= Image).pack()
 
 elif predicted_label == "Link":
-	print("Test case: " + Link)
+	tk.Label(frame, text= Link).pack()
 	
 elif predicted_label == "JavaScript":
-	print("Test case: " + JS)
+	tk.Label(frame, text= JS).pack()
 	
 elif predicted_label == "Table":
-	print("Test case: " + Table)
+	tk.Label(frame, text= Table).pack()
 	
 else:
-	print("No test case found matching label: " + predicted_label)
-	
-	
-	
-	
+	tk.Label(frame, text="No test case found matching label: " + predicted_label).pack()
+
+#How do I close a tkinter window? [Online]
+#Author(s): Steven M. Vascellaro (2018).
+#Available at: https://stackoverflow.com/questions/110923/how-do-i-close-a-tkinter-window
+#[Accessed 01 05 2019].
+
+#Quit button
+tk.Button(frame, text="Exit", command=quit).pack()
+
+#Start GUI
+win.mainloop()
